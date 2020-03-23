@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900);
+@font-face { font-family: 'AdobeFanHeitiStd-Bold'; src: url("../font/AdobeFanHeitiStd-Bold.otf") format("opentype"); }
+@font-face { font-family: 'NotoSansTC-Regular'; src: url("../font/NotoSansTC-Regular.otf") format("opentype"); }
+.center-section { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.news-section { position: relative; background-color: white; width: 100%; }
+.news-section a { text-decoration: none; }
+.news-section .fix-form { padding: 0 20px; line-height: 70px; color: #E61C15; font-size: 23px; cursor: pointer; word-break: break-all; }
+@media screen and (max-width: 414px) { .news-section .fix-form { font-size: 20px; } }
+@media screen and (max-width: 360px) { .news-section .fix-form { font-size: 16px; line-height: 55px; } }
+.news-section .news-title { padding: 0 20px; height: 38px; line-height: 38px; background-color: #6AB132; font-size: 20px; color: white; border-top: 1px solid #B4B5B5; }
+.news-section .news-tab { position: relative; height: 75px; line-height: 75px; border-top: 1px solid #B4B5B5; font-size: 0; cursor: pointer; }
+.news-section .news-tab .news-icon { display: inline-block; vertical-align: middle; height: 60px; margin: 0 20px; }
+@media screen and (max-width: 360px) { .news-section .news-tab .news-icon { height: 55px; } }
+.news-section .news-tab span { display: inline-block; vertical-align: middle; color: #6AB132; font-size: 23px; }
+@media screen and (max-width: 360px) { .news-section .news-tab span { font-size: 18px; } }
+
+.share-section { position: relative; width: 100vw; background-color: #636062; padding-bottom: 75px; }
+@media screen and (max-width: 475px) { .share-section { padding-bottom: 50px; } }
+.share-section .share-block { padding: 0 20px; }
+.share-section .share-block a { text-decoration: none; color: white; border-color: white; }
+.share-section .share-block .share-tab { position: relative; height: 65px; line-height: 65px; border-bottom: 1px solid #ffffff; font-size: 0; }
+@media screen and (max-width: 360px) { .share-section .share-block .share-tab { height: 55px; line-height: 55px; } }
+.share-section .share-block .share-tab span { color: white; font-size: 23px; font-weight: 200; }
+@media screen and (max-width: 360px) { .share-section .share-block .share-tab span { font-size: 18px; } }
+.share-section .share-block .share-tab .social-icon { float: right; height: 50px; }
+.share-section .share-block .share-tab .social-icon img { height: 50px; width: 50px; margin: 8px 5px; }
+@media screen and (max-width: 360px) { .share-section .share-block .share-tab .social-icon img { height: 40px; width: 40px; } }
+.share-section .share-block .last-share-tab { border: none; }

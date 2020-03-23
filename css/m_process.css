@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900);
+@font-face { font-family: 'AdobeFanHeitiStd-Bold'; src: url("../font/AdobeFanHeitiStd-Bold.otf") format("opentype"); }
+@font-face { font-family: 'NotoSansTC-Regular'; src: url("../font/NotoSansTC-Regular.otf") format("opentype"); }
+.center-section { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.process-section { position: relative; margin: auto 30px; padding-bottom: 75px; padding-top: 75px; }
+@media screen and (max-width: 996px) { .process-section { padding-top: 75px; } }
+@media screen and (max-width: 475px) { .process-section { padding-top: 50px; } }
+.process-section .m-tittle { height: 50px; line-height: 50px; font-size: 25px; }
+.process-section .step-container { background-color: #EEEFEF; font-size: 0; }
+.process-section .step-container .step-cube { display: inline-block; vertical-align: middle; color: white; background-color: #f8b42d; width: 50px; height: 70px; font-size: 35px; line-height: 70px; text-align: center; }
+.process-section .step-container .step-triangle { display: inline-block; vertical-align: middle; width: 0; height: 0; border-style: solid; border-width: 35px 0 35px 20px; border-color: transparent transparent transparent #f8b42d; }
+.process-section .step-container .step-content { display: inline-block; vertical-align: middle; font-size: 20px; color: #4F912A; text-align: center; width: 80%; line-height: 25px; }
+.process-section .step-container .step-content span { color: #E61C15; }
+@media screen and (max-width: 414px) { .process-section .step-container .step-content { width: 70%; } }
+.process-section .process-triangle { margin: 10px auto; width: 0; height: 0; border-style: solid; border-width: 20px 20px 0 20px; border-color: #f8b42d transparent transparent transparent; }
+.process-section .charge-block { background-color: #4F912A; border-radius: 15px; width: 250px; height: 250px; margin: 20px auto; text-align: center; }
+.process-section .charge-block .charge-icon { width: 120px; vertical-align: middle; margin: 25px 20px 25px 20px; }
+.process-section .charge-block .charge-type { color: white; font-size: 30px; letter-spacing: 10px; vertical-align: middle; margin-left: 15px; }
+.process-section .charge-block .charge-price { color: white; font-size: 18px; vertical-align: middle; line-height: 40px; }
+.process-section .charge-block .charge-price .charge-purse { height: 28px; vertical-align: middle; }

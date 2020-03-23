@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900);
+@font-face { font-family: 'AdobeFanHeitiStd-Bold'; src: url("../font/AdobeFanHeitiStd-Bold.otf") format("opentype"); }
+@font-face { font-family: 'NotoSansTC-Regular'; src: url("../font/NotoSansTC-Regular.otf") format("opentype"); }
+.center-section { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+:target { position: relative; padding-top: 50px; margin-top: -50px; }
+
+.service-section { position: relative; margin: auto 30px; padding-bottom: 75px; padding-top: 75px; }
+@media screen and (max-width: 996px) { .service-section { padding-top: 75px; } }
+@media screen and (max-width: 475px) { .service-section { padding-top: 50px; } }
+.service-section .m-tittle { height: 50px; line-height: 50px; font-size: 25px; }
+.service-section .back-btn { position: fixed; right: 15px; bottom: 80px; color: #4F912A; background-color: #EEEFEF; border: 1px solid #4F912A; height: 30px; width: 55px; line-height: 30px; border-radius: 10px; text-align: center; }
+.service-section .service-container { border: 2px solid #EEEFEF; border-radius: 4px; margin: 12px auto; background-color: #EEEFEF; }
+.service-section .service-container .service-pics { margin: 15px; }
+.service-section .service-container .service-pics img { width: 100%; }
+.service-section .service-container .service-tittle-tab { color: #4F912A; font-size: 0; padding: 4px 8px; }
+.service-section .service-container .service-tittle-tab span { background-color: #4F912A; display: inline-block; border-top: 3px #4F912A solid; width: 20%; }
+.service-section .service-container .service-tittle-tab .service-tittle { display: inline-block; font-size: 22px; font-weight: 400; line-height: 23px; width: 60%; vertical-align: middle; text-align: center; }
+@media screen and (max-width: 360px) { .service-section .service-container .service-tittle-tab .service-tittle { font-size: 17px; } }
+.service-section .service-container .service-desc { color: #717071; padding: 10px 20px; font-size: 15px; line-height: 17px; text-align: justify; }
+@media screen and (max-width: 360px) { .service-section .service-container .service-desc { font-size: 12px; } }
+.service-section .service-container .service-btn { vertical-align: top; font-size: 16px; margin: 0px 10px 10px 0px; color: #6AB132; text-align: right; }

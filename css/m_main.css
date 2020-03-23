@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900);
+@font-face { font-family: 'AdobeFanHeitiStd-Bold'; src: url("../font/AdobeFanHeitiStd-Bold.otf") format("opentype"); }
+@font-face { font-family: 'NotoSansTC-Regular'; src: url("../font/NotoSansTC-Regular.otf") format("opentype"); }
+.center-section { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+body { font-family: "NotoSansTC-Regular"; }
+
+a { text-decoration: none; }
+
+hr { border-color: white; }
+
+/* Tooltip container */
+.tool-tip { position: relative; display: inline-block; }
+
+/* Tooltip text */
+.tool-tip .tool-tip-text { visibility: hidden; width: 120px; background-color: #898989; color: #fff; text-align: center; padding: 10px 0; border-radius: 6px; margin: 5px 0px; font-size: 12px; /* Position the tooltip text - see examples below! */ position: absolute; z-index: 1; top: 0px; left: 0px; }
+
+.tool-tip .tool-tip-text::after { content: " "; position: absolute; top: 100%; /* At the bottom of the tooltip */ left: 50%; margin-left: -5px; border-width: 5px; border-style: solid; border-color: black transparent transparent transparent; }
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tool-tip:hover .tool-tip-text { visibility: visible; }
+
+.section-h1 { position: relative; width: 100%; height: 96px; font-size: 40px; text-align: center; line-height: 96px; font-style: italic; font-family: "NotoSansTC-Regular"; background-color: #FFF000; }
+@media screen and (max-width: 996px) { .section-h1 { height: 84px; font-size: 36px; line-height: 84px; } }
+@media screen and (max-width: 768px) { .section-h1 { height: 72px; font-size: 32px; line-height: 72px; } }
+@media screen and (max-width: 475px) { .section-h1 { height: 60px; font-size: 26px; line-height: 60px; } }
+@media screen and (max-width: 360px) { .section-h1 { height: 48px; font-size: 24px; line-height: 48px; } }
+
+.section-title { position: relative; width: 100%; padding: 50px 0px 50px; background-color: #FFF000; text-align: center; font-family: "NotoSansTC-Regular"; }
+.section-title p:nth-child(1) { position: relative; padding: 20px; margin: 0 auto; font-style: italic; font-size: 40px; }
+@media screen and (max-width: 996px) { .section-title p:nth-child(1) { font-size: 40px; } }
+.section-title p:nth-child(2) { margin: 0 auto; max-width: 576px; padding: 20px 40px; font-size: 14px; line-height: 30px; letter-spacing: 2px; font-family: "NotoSansTC-Regular"; }

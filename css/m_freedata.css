@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900);
+@font-face { font-family: 'AdobeFanHeitiStd-Bold'; src: url("../font/AdobeFanHeitiStd-Bold.otf") format("opentype"); }
+@font-face { font-family: 'NotoSansTC-Regular'; src: url("../font/NotoSansTC-Regular.otf") format("opentype"); }
+.center-section { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.freedata-section { position: relative; margin: auto 30px; padding-bottom: 75px; padding-top: 75px; text-align: justify; }
+@media screen and (max-width: 996px) { .freedata-section { padding-top: 75px; } }
+@media screen and (max-width: 475px) { .freedata-section { padding-top: 50px; } }
+.freedata-section .m-tittle { height: 50px; line-height: 50px; font-size: 25px; }
+.freedata-section .freedata-tittle { font-size: 20px; color: #717071; }
+.freedata-section .freedata-desc { color: #717071; margin-top: 10px; margin-bottom: 20px; font-size: 15px; line-height: 20px; }
+@media screen and (max-width: 360px) { .freedata-section .freedata-desc { font-size: 12px; } }
+.freedata-section .freedata-step { color: #4F912A; background-color: #DCDDDD; font-size: 15px; letter-spacing: 2px; line-height: 18px; padding: 10px; border-radius: 8px; }
+@media screen and (max-width: 360px) { .freedata-section .freedata-step { font-size: 12px; } }
+.freedata-section img { width: 100%; margin-top: 5px; margin-bottom: 30px; }

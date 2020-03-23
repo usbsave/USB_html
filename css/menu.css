@@ -1,0 +1,55 @@
+/********** header **********/
+
+.padder{
+	text-align:left;width:1104px; height:60px; background:url(../images/navbg.gif) repeat-x 0 0; margin:auto;}
+.padder .nav{
+   background:url(../images/navbg.gif) repeat-x; height:37px;
+	
+}
+
+.padder .nav .mainNav{
+	padding-left:24px; position:absolute;
+}
+.padder .nav .mainNav a:link{
+	width:90px; height:37px; display:inline-block; text-align:center; font-weight:bold; font-size:14px;color:#fff;line-height:37px;
+}
+.padder .nav .mainNav a:hover{
+	text-decoration:none; background:url(../images/hover.jpg) no-repeat center; color:#588f0d;
+}
+.padder .nav .mainNav a:actived{
+	text-decoration:none; background:url(../images/hover.jpg) no-repeat center; color:#588f0d;
+}
+.padder .nav .mainNav a.actived:link,.header .padder .nav .mainNav a.actived:visited,.header .padder .nav .mainNav a.actived:hover,.header .padder .nav .mainNav a.actived:active{
+	 background:url(../images/hover.jpg) no-repeat center; color:#588f0d;
+}
+.padder .secondNav{
+	line-height:38px; text-align:left;height:38px;
+}
+.padder .secondNav a{
+    color:#000000;display:inline-block; padding:0 8px; margin-right:19px;
+}
+.padder .secondNav a:hover{color:#588f0d;}
+.padder .secondNav a.actived{
+	font-weight:bold;
+}
+.padder .secondNav .subNav1{
+	display:none;
+}
+.padder .secondNav .subNav2{
+	padding-left:150px;display:none;background:url(../images/navhover.gif) no-repeat;
+}
+.padder .secondNav .subNav3{
+	padding-left:250px;display:none;background:url(../images/navhover.gif) no-repeat;
+}
+.padder .secondNav .subNav4{
+	padding-left:350px;display:none;background:url(../images/navhover.gif) no-repeat;
+}
+.padder .secondNav .subNav5{
+	padding-left:450px;display:none;background:url(../images/navhover.gif) no-repeat;
+}
+.padder .secondNav .subNav6{
+	padding-left:550px;display:none;background:url(../images/navhover.gif) no-repeat;
+}
+.padder .secondNav .subNav7{
+	padding-left:650px;display:none;background:url(../images/navhover.gif) no-repeat;
+}

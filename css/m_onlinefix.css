@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900);
+@font-face { font-family: 'AdobeFanHeitiStd-Bold'; src: url("../font/AdobeFanHeitiStd-Bold.otf") format("opentype"); }
+@font-face { font-family: 'NotoSansTC-Regular'; src: url("../font/NotoSansTC-Regular.otf") format("opentype"); }
+.center-section { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.onlinefix-section { position: relative; margin: auto 30px; padding-bottom: 75px; padding-top: 75px; }
+@media screen and (max-width: 996px) { .onlinefix-section { padding-top: 75px; } }
+@media screen and (max-width: 475px) { .onlinefix-section { padding-top: 50px; } }
+.onlinefix-section .m-tittle { height: 50px; line-height: 50px; font-size: 25px; }
+.onlinefix-section .onlinefix-pics { margin: 10px auto; }
+.onlinefix-section .onlinefix-pics img { width: 100%; }
+.onlinefix-section .social-icon { text-align: center; margin-bottom: 15px; }
+.onlinefix-section .social-icon img { cursor: pointer; height: 50px; width: 50px; margin: 5px; display: inline-block; }
+.onlinefix-section .onlinefix-tab { color: #4F912A; border-bottom: 1px #6AB132 solid; font-size: 19px; letter-spacing: 3px; font-weight: 400; line-height: 23px; margin-bottom: 5px; }
+.onlinefix-section .onlinefix-desc { color: #717071; margin-top: 10px; margin-bottom: 20px; font-size: 15px; letter-spacing: 2px; line-height: 17px; }
+@media screen and (max-width: 360px) { .onlinefix-section .onlinefix-desc { font-size: 12px; } }
+.onlinefix-section .onlinefix-desc .onlinefix-contact { display: inline-block; margin-right: 10px; }
+.onlinefix-section .onlinefix-desc iframe { width: 100%; height: auto; border: 0; margin-top: 15px; }
+.onlinefix-section .form-block .form-col { color: #717071; font-size: 18px; line-height: 38px; }
+.onlinefix-section .form-block .form-col p { display: inline-block; margin-right: 10px; }
+.onlinefix-section .form-block .form-col .input { display: inline-block; background-color: #DCDCDD; border-radius: 4px; border: none; height: 28px; width: 200px; font-size: 16px; }
+.onlinefix-section .form-block .form-col .desc { width: 100%; }
+.onlinefix-section .form-block .multi { line-height: 32px; }
+.onlinefix-section .form-block #CheckboxGroup1 { display: inline-block; }
+.onlinefix-section .form-block .agree { display: inline-block; text-decoration: underline; font-size: 18px; line-height: 35px; letter-spacing: 4px; color: blue; }
+.onlinefix-section .form-block #agreeterms { line-height: 20px; display: none; color: #717071; }
+.onlinefix-section .form-block .btn-block { text-align: center; }
+.onlinefix-section .form-block .btn-block .form-btn { display: inline-block; margin: 5px; background-color: #4F912A; color: white; width: 115px; font-size: 17px; height: 35px; line-height: 35px; text-align: center; border-radius: 5px; border: 0; }

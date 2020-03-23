@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900);
+@font-face { font-family: 'AdobeFanHeitiStd-Bold'; src: url("../font/AdobeFanHeitiStd-Bold.otf") format("opentype"); }
+@font-face { font-family: 'NotoSansTC-Regular'; src: url("../font/NotoSansTC-Regular.otf") format("opentype"); }
+.center-section { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.success-section { position: relative; margin: auto 90px; padding-bottom: 75px; padding-top: 75px; }
+@media screen and (max-width: 996px) { .success-section { padding-top: 75px; } }
+@media screen and (max-width: 475px) { .success-section { padding-top: 50px; margin: auto 30px; } }
+@media screen and (max-width: 375px) { .success-section { margin: auto 12px; } }
+.success-section .m-tittle { height: 50px; line-height: 50px; font-size: 25px; }
+.success-section .success-container { margin: 12px auto; font-size: 0; border-bottom: 4px solid #EEEFEF; }
+.success-section .success-container .success-pics { display: inline-block; width: 39%; vertical-align: top; margin-bottom: 10px; max-height: 121px; overflow: hidden; }
+@media screen and (max-width: 360px) { .success-section .success-container .success-pics { width: 36%; } }
+.success-section .success-container .success-pics img { width: 100%; height: auto; overflow: hidden; }
+.success-section .success-container .success-content { display: inline-block; width: 61%; }
+@media screen and (max-width: 360px) { .success-section .success-container .success-content { width: 64%; } }
+.success-section .success-container .success-content .success-tittle { font-size: 18px; padding: 7px; font-weight: 300; line-height: 20px; vertical-align: middle; color: #6AB132; }
+@media screen and (max-width: 360px) { .success-section .success-container .success-content .success-tittle { font-size: 15px; padding: 5px; } }
+.success-section .success-container .success-content table { font-size: 13px; line-height: 20px; text-align: center; border-collapse: collapse; color: #717071; margin: 0 0 7px 7px; }
+@media screen and (max-width: 360px) { .success-section .success-container .success-content table { font-size: 11px; margin: 0 0 5px 5px; } }
+.success-section .success-container .success-content th { vertical-align: text-top; }
+.success-section .success-container .success-content td { vertical-align: text-top; }
+.success-section .pages { text-align: center; margin: 20px 0; }
+.success-section .pages .page-btn { display: inline-block; color: #4F912A; border: 1px #4F912A solid; vertical-align: middle; text-align: center; cursor: pointer; padding: 3px 5px; margin-right: 2px; border-radius: 5px; font-size: 16px; }
+@media screen and (max-width: 360px) { .success-section .pages .page-btn { font-size: 14px; padding: 2px 3px; margin-right: 1px; } }
+.success-section .pages .current { background-color: #4F912A; color: white; }

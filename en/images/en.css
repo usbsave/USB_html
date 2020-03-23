@@ -1,0 +1,22 @@
+body {font-family:arial;}
+.logo {width:310px;}
+.nav li{ width:auto;margin:0 2px;}
+.nav a {font-size:12px;font-family:arial;height:29px;margin-top:4px;line-height:29px;}
+.nav li a:hover, .nav li a.visit {background:#fff;width:auto;}
+.nav li span.li-l, .nav li span.li-r {width:10px;height:34px;margin-top:-4px;}
+.nav li span.li-l {float:left;}
+.nav li span.li-r {float:right;}
+.nav li a:hover span.li-l, .nav li a.visit span.li-l {float:left;background:url(hover.jpg) 0 0;}
+.nav li a:hover span.li-r, .nav li a.visit span.li-r {float:right;background:url(hover.jpg) right 0;}
+.nav_02 {margin-left:42px;background:url(navhover.gif) no-repeat;padding-left:10px;}
+.nav_02 a, .nav_02 a:hover {padding:0 5px;}
+.tsfx {right:50px;}
+
+.left01 ul li{ font-size:12px;}
+.left01 ul li a{font-weight:bold;}
+.right {height:820px;position:relative;}
+.right01, .right01_nr {height:auto;}
+.right02_tit {background:url(tit03.jpg) no-repeat;}
+.right02_nr .box {margin:5px;}
+
+.hdxx5 {padding-left:61px;width:auto;}
