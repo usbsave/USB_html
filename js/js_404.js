@@ -8,7 +8,7 @@ function showTime()
     document.getElementById('timer').innerHTML= t;
     
     if(t==1){
-        location.href='/index.html';
+        location.href="https://usbsave.github.io/USB_html/";
     }
     
     //每秒執行一次,showTime()
