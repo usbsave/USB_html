@@ -8,7 +8,7 @@ function showTime()
     document.getElementById('timer').innerHTML= t;
     
     if(t==1){
-        location.href="../index.html";
+        location.href="/USB_html/index.html";
     }
     
     //每秒執行一次,showTime()
