@@ -2,6 +2,7 @@
 
 body{
     background-image: url(https://usbsave.github.io/USB_html/images/404-bg.png);
+    background-repeat: no-repeat;
     background-size: cover;
     padding: 100px;
 }
