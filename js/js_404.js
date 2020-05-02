@@ -1,5 +1,5 @@
 //設定倒數秒數
-var t = 6;
+var t = 2;
 
 //顯示倒數秒收
 function showTime()
