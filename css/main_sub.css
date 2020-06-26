@@ -1,4 +1,4 @@
-﻿﻿*{
+﻿﻿﻿*{
 	margin:0;
 	padding:0;
 }
@@ -91,7 +91,7 @@ img{
 
 
 
-.right{ width:690px; height:auto; float:right; border:1px solid #d5d5d5;}
+.right{ width:690px; height:1000px !important; float:right; border:1px solid #d5d5d5;}
 .right01{ width:690px; height:1%;}
 .right01_tit{ width:660px; height:35px; border-bottom:2px solid #999999; background:url(../images/005.jpg) repeat-x; padding:0 20px 0 10px;}
 .right01_nr{ width:670px; height:1%;padding:10px;}
